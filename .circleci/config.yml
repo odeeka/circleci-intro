@@ -8,8 +8,7 @@ jobs:
 
     steps:
       - run: echo build step
-      - run: exit 1
-  
+
   test:
     docker:
       - image: circleci/node:7.10
