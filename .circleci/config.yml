@@ -24,3 +24,4 @@ jobs:
       - run: npm test
 
       - run: echo "Hello Demo"
+      - run: echo additional build step
